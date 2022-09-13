@@ -44,6 +44,6 @@ if (opcion == "4") {
     alert(alerta);
 } 
 
-if (opcion >= "5") {
+if (opcion >= 5) {
     alert("OPCION NO VÁLIDA");
 }
