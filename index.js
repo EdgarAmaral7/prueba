@@ -1,49 +1,114 @@
 let nombre = prompt("Ingresa tu nombre :");
+let nom = "Karolina"
 
-alert("OPCION 1: SUMA")
-alert("OPCION 2: RESTA")
-alert("OPCION 3: MULTIPLICACIÓN")
-alert("OPCION 4: DIVISIÓN")
+if (nombre == nom ){
+    alert("Validando usuario......")
+    alert("Usuario correcto")
+    alert("Bienvenida Karolina, a continuación tengo un menú de opciones para ti")
 
-let opcion = prompt("Escoje una opción: ")
+    alert("OPCION 1: Mensaje")
+    alert("OPCION 2: Invitación")
+    alert("OPCION 3: Canjeable")
+    
+    let opcion = prompt("Qué opción quieres ver primero? ");
 
-if (opcion == "1") {
-    let numero = parseInt(prompt("Ingresa el primer número: "));
-    let numero1 = parseInt(prompt("Ingresa el segundo número: "));
-    let suma = (numero + numero1);
-    let alerta = (nombre + ", el resultado de la suma es : " + suma);
+    if (opcion == "1") {
+ 
+        alert("El usuario Edgar dice que te ama muchísimo, que eres el amor de su vida y la persona con la que siempre quiere estar. Que está muy orgulloso de ser tu esposo y que está muy feliz por formar de ahora en adelante una familia contigo.");
+        let opc = prompt("Ahora cuál opción desea abrir: ");
+        if (opc == "2") {
+    
+            alert("Cargando Invitación.....");
+            alert("Invitación para: UNA COMIDA EL JUEVES EN EL MULTICENTER EL SALTO.")
 
-    alert(alerta);
-} 
+            let opci = prompt("Ahora cuál opción desea abrir: ");
+            if (opci == "3") {
+    
+                alert("Cupón canjeable por unos besos y un delicioso.");
+            } 
 
-if (opcion == "2") {
-    let numero = parseInt(prompt("Ingresa el primer número: "));
-    let numero1 = parseInt(prompt("Ingresa el segundo número: "));
-    let resta = (numero - numero1);
-    let alerta = (nombre + ", el resultado de la resta es : " + resta);
+        } 
 
-    alert(alerta);
-} 
+        if (opc == "3") {
+    
+            alert("Cupón canjeable por unos besos y un delicioso.");
+
+            let opci = prompt("Ahora cuál opción desea abrir: ");
+            if (opci == "2") {
+    
+                alert("Cargando Invitación.....");
+                alert("Invitación para: UNA COMIDA EL JUEVES EN EL MULTICENTER EL SALTO.")
+            }
+        } 
+    } 
+    
+    if (opcion == "2") {
+    
+        alert("Cargando Invitación.....");
+        alert("Invitación para: UNA COMIDA EL JUEVES EN EL MULTICENTER EL SALTO.")
+
+        let opc = prompt("Ahora cuál opción desea abrir: ");
+        if (opc == "1") {
+ 
+            alert("El usuario Edgar dice que te ama muchísimo, que eres el amor de su vida y la persona con la que siempre quiere estar. Que está muy orgulloso de ser tu esposo y que está muy feliz por formar de ahora en adelante una familia contigo.");
+            let opci = prompt("Ahora cuál opción desea abrir: ");
+            if (opci == "3") {
+    
+                alert("Cupón canjeable por unos besos y un delicioso.");
+            } 
+            
+        } 
+
+        if (opc == "3") {
+    
+            alert("Cupón canjeable por unos besos y un delicioso.");
+            let opci = prompt("Ahora cuál opción desea abrir: ");
+            if (opci == "1") {
+ 
+                alert("El usuario Edgar dice que te ama muchísimo, que eres el amor de su vida y la persona con la que siempre quiere estar. Que está muy orgulloso de ser tu esposo y que está muy feliz por formar de ahora en adelante una familia contigo.");
+                
+            } 
+        } 
+    } 
+    
+    
+    if (opcion == "3") {
+    
+        alert("Cupón canjeable por unos besos y un delicioso.");
+        let opc = prompt("Ahora cuál opción desea abrir: ");
+        if (opc == "1") {
+ 
+            alert("El usuario Edgar dice que te ama muchísimo, que eres el amor de su vida y la persona con la que siempre quiere estar. Que está muy orgulloso de ser tu esposo y que está muy feliz por formar de ahora en adelante una familia contigo.");
+            let opci = prompt("Ahora cuál opción desea abrir: ");
+            if (opci == "2") {
+    
+                alert("Cargando Invitación.....");
+                alert("Invitación para: UNA COMIDA EL JUEVES EN EL MULTICENTER EL SALTO.")
+            }
+            
+        } 
+
+        if (opc == "2") {
+    
+            alert("Cargando Invitación.....");
+            alert("Invitación para: UNA COMIDA EL JUEVES EN EL MULTICENTER EL SALTO.")
+            let opci = prompt("Ahora cuál opción desea abrir: ");
+            if (opci == "1") {
+ 
+                alert("El usuario Edgar dice que te ama muchísimo, que eres el amor de su vida y la persona con la que siempre quiere estar. Que está muy orgulloso de ser tu esposo y que está muy feliz por formar de ahora en adelante una familia contigo.");
+                
+            } 
+
+        } 
 
 
-if (opcion == "3") {
-    let numero = parseInt(prompt("Ingresa el primer número: "));
-    let numero1 = parseInt(prompt("Ingresa el segundo número: "));
-    let multi = (numero * numero1);
-    let alerta = (nombre + ", el resultado de la multiplicación es : " + multi);
+    } 
+    
 
-    alert(alerta);
-} 
-
-if (opcion == "4") {
-    let numero = parseFloat(prompt("Ingresa el primer número: "));
-    let numero1 = parseFloat(prompt("Ingresa el segundo número: "));
-    let divi = parseFloat((numero / numero1));
-    let alerta = (nombre + ", el resultado de la división es : " + divi);
-
-    alert(alerta);
-} 
-
-if (opcion >= 5) {
-    alert("OPCION NO VÁLIDA");
+    
 }
+
+
+
+
+
